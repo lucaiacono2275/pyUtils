@@ -1,4 +1,14 @@
 {
     "name": "Coder templates",
-    "image": "mcr.microsoft.com/devcontainers/python:dev-3.13"
+    "image": "mcr.microsoft.com/devcontainers/python:dev-3.13",
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "workbench.colorTheme": "Visual Studio Dark"
+        },
+        "extensions": [
+          "ms-python.python"
+        ]
+      }
+    }
 }
