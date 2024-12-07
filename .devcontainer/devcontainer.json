@@ -1,6 +1,6 @@
 {
     "name": "Coder templates",
-    "image": "mcr.microsoft.com/devcontainers/python:dev-3.13",
+    "image": "mcr.microsoft.com/devcontainers/python:3",
     "customizations": {
       "vscode": {
         "settings": {
@@ -10,5 +10,6 @@
           "ms-python.python"
         ]
       }
-    }
+    },
+    "remoteUser": "vscode"
 }
