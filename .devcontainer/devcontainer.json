@@ -1,0 +1,4 @@
+{
+    "name": "Coder templates",
+    "image": "mcr.microsoft.com/devcontainers/python:dev-3.13"
+}
